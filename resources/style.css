@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(19, 18, 18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  background: black;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, transparent, #0006);
+}
+
+.swiper-slide img {
+  display: block;
+  /* width: 100%; */
+  width: 400px;
+  height: 400px;
+}
